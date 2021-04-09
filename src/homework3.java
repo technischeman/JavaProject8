@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class homework3 {
     public static void main(String[] args) {
-        ArrayList<String>sehirler=new ArrayList<>();
+        ArrayList<String>cities=new ArrayList<>();
        sehirler.add("istanbul");
        sehirler.add("kastamonu");
        sehirler.add("ankara");
@@ -12,14 +12,14 @@ public class homework3 {
        sehirler.add("konya");
         //System.out.println("sehirler"+sehirler);
         //System.out.print("sehirler;"+sehirler.get(0));
-        sehirler.remove(2);
-        for (int i = 0; i < sehirler.size() ; i++) {
-            System.out.println(sehirler.get(i)+"--");
+        cities.remove(2);
+        for (int i = 0; i < cities.size() ; i++) {
+            System.out.println(cities.get(i)+"--");
 
         }
-        sehirler.set(2,"ADD");
-        for (int i = 0; i < sehirler.size() ; i++) {
-            System.out.print("yeni sehir "+(i+1)+sehirler.get(i));
+        cities.set(2,"ADD");
+        for (int i = 0; i < cities.size() ; i++) {
+            System.out.print("yeni sehir "+(i+1)+cities.get(i));
 
         }
 
