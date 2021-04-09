@@ -9,7 +9,7 @@ public class homework4 {
         intlist1.add(2017);
         intlist1.add(2021);
         for (int i =0; i <intlist1.size() ; i++) {
-            System.out.println("ters="+String.valueOf(intlist1.get(i)));
+            System.out.println("reverse writing="+String.valueOf(intlist1.get(i)));
 
         }
     }
