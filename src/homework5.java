@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class homework5 {
     public static void main(String[] args) {
-        ArrayList<String> sehirler=new ArrayList<>();
+        ArrayList<String> cities=new ArrayList<>();
         sehirler.add(0,"istanbul");
         sehirler.add(1,"kastamonu");
         sehirler.add(2,"ankara");
@@ -11,9 +11,9 @@ public class homework5 {
         sehirler.add(5,"manisa");
         sehirler.add(6,"konya");
 
-        for (int i = 0; i <sehirler.size() ; i++) {
+        for (int i = 0; i <cities.size() ; i++) {
 
-            System.out.println("ters="+String.valueOf(sehirler.get(i)));
+            System.out.println("reverse writing="+String.valueOf(cities.get(i)));
 
 
         }
