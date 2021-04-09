@@ -12,10 +12,10 @@ public class neu1 {
         list2.add(9);
         list2.add(11);
         list1.addAll(list2);
-        for (Integer sayi:list1){
-            if (sayi>3){
-                System.out.println(sayi+"buyuk");
-                System.out.println(sayi+"kucuk");
+        for (Integer number:list1){
+            if (number>3){
+                System.out.println(number+"buyuk");
+                System.out.println(number+"kucuk");
             }
         }
     }
