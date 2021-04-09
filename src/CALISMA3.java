@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CALISMA3
+public class Work3
 {
     public static void main(String[] args) {
         ArrayList<Integer>int_LIST1=new ArrayList<>();
