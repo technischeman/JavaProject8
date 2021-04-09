@@ -6,17 +6,17 @@ public class homework8 {
     toplamini for ve if kullarak bulunuz.
 
      */
-        int toplam=0;
+        int sum=0;
         for (int i = 0; i <int_array.length ; i++) {
             if (int_array[i]>10){
 
-                    toplam=toplam+int_array[i];
+                    sum=sum+int_array[i];
 
         }
 
 
                 }
-        System.out.println(toplam);
+        System.out.println(sum);
             }}
 
 
